@@ -4,7 +4,7 @@ import logo from '@/public/logo.png'
 
 export default function MainHeader() {
     return (
-        <header className='flex items-center justify-between px-20 font-medium'>
+        <header className='flex items-center justify-between px-20 text-lg font-medium'>
             <Image src={logo} alt='TuteDude' height={63} width='160' />
             <nav className='flex gap-7'>
                 <Link href='/' className='opacity-25'>

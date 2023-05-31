@@ -1,6 +1,7 @@
 import './globals.css'
 import { Poppins } from 'next/font/google'
 import MainHeader from '@/components/header'
+import NavBar from '@/components/navbar'
 
 const poppins = Poppins({
     subsets: ['latin'],
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang='en'>
             <body className={poppins.className + ' text-primary'}>
                 <MainHeader />
+                <NavBar />
                 {children}
             </body>
         </html>
