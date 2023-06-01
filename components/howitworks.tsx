@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import invitePeopleIcon from '@/public/invitepeople.svg'
 import walletIcon from '@/public/wallet.svg'
+import offerIcon from '@/public/offer.svg'
 import referralCouponIcon from '@/public/referralcoupon.svg'
-import offerIcon from '@/public/bxs_offer.png'
 
 export default function Howitworks() {
     return (
@@ -11,7 +11,9 @@ export default function Howitworks() {
             <div className='mt-5 flex flex-wrap justify-center gap-12 md:justify-normal'>
                 <div className='flex w-80 items-center gap-5'>
                     <div className='aspect-square rounded-full bg-[#D9D9D9] bg-opacity-25 p-4'>
-                        <Image src={invitePeopleIcon} alt='' height={32} width={32} />
+                        <div className='relative h-8 w-8'>
+                            <Image src={invitePeopleIcon} alt='' fill={true} />
+                        </div>
                     </div>
                     <div>
                         <h5 className='font-medium text-black'>Invite your Friends</h5>
@@ -20,7 +22,9 @@ export default function Howitworks() {
                 </div>
                 <div className='flex w-80 items-center gap-5'>
                     <div className='aspect-square rounded-full bg-[#D9D9D9] bg-opacity-25 p-4'>
-                        <Image src={walletIcon} alt='' height={32} width={32} />
+                        <div className='relative h-8 w-8'>
+                            <Image src={walletIcon} alt='' fill={true} />
+                        </div>
                     </div>
                     <div>
                         <h5 className='font-medium text-black'>Transfer money from wallet</h5>
@@ -40,7 +44,9 @@ export default function Howitworks() {
                 </div>
                 <div className='flex w-80 items-center gap-5'>
                     <div className='aspect-square rounded-full bg-[#D9D9D9] bg-opacity-25 p-4'>
-                        <Image src={offerIcon} alt='' height={32} width={32} />
+                        <div className='relative h-8 w-8'>
+                            <Image src={offerIcon} alt='' fill={true} />
+                        </div>
                     </div>
                     <div>
                         <h5 className='font-medium text-black'>Your Friend gets ₹ 200 Off </h5>
@@ -49,7 +55,9 @@ export default function Howitworks() {
                 </div>
                 <div className='flex w-80 items-center gap-5'>
                     <div className='aspect-square rounded-full bg-[#D9D9D9] bg-opacity-25 p-4'>
-                        <Image src={referralCouponIcon} alt='' height={32} width={32} />
+                        <div className='relative h-8 w-8'>
+                            <Image src={referralCouponIcon} alt='' fill={true} />
+                        </div>
                     </div>
                     <div>
                         <h5 className='font-medium text-black'>Friend purchases any course</h5>
