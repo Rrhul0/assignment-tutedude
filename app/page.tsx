@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Home() {
     return (
         <>
-            <div className='flex flex-col items-center gap-8 lg:flex-row lg:items-start lg:justify-between lg:gap-0'>
+            <div className='flex flex-col gap-8 md:items-center lg:flex-row lg:items-start lg:justify-between lg:gap-0'>
                 <DashBoard />
                 <ReferralCode />
             </div>

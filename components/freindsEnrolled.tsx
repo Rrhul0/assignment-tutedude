@@ -4,7 +4,7 @@ export default function FriendsEnrolled() {
             <h2 className='text-xl font-semibold'>
                 Friends who enrolled <span className='font-normal text-dark'>(3)</span>
             </h2>
-            <div className='flex  gap-5 overflow-x-scroll pt-5 text-white'>
+            <div className='flex flex-col gap-5 overflow-x-scroll pt-5 text-white md:flex-row'>
                 <div className='flex h-56 w-[358px] flex-shrink-0 flex-col justify-between rounded-2xl bg-gradient p-5 '>
                     <div className='flex flex-col gap-2'>
                         <div className='flex items-center justify-between'>
