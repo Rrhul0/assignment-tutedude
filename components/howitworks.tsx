@@ -6,9 +6,9 @@ import offerIcon from '@/public/bxs_offer.png'
 
 export default function Howitworks() {
     return (
-        <section className='pt-10'>
+        <section className='flex flex-col items-center pt-10 md:items-start'>
             <h4 className='text-2xl font-semibold '>How does it work ?</h4>
-            <div className='mt-5 flex flex-wrap gap-12'>
+            <div className='mt-5 flex flex-wrap justify-center gap-12 md:justify-normal'>
                 <div className='flex w-80 items-center gap-5'>
                     <div className='aspect-square rounded-full bg-[#D9D9D9] bg-opacity-25 p-4'>
                         <Image src={invitePeopleIcon} alt='' height={32} width={32} />
