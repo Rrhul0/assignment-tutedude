@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <NavBar paths={['Refer & Earn']} />
-            <div className='flex flex-col gap-8 md:items-center lg:flex-row lg:items-start lg:justify-between lg:gap-0'>
+            <div className='flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between lg:gap-0'>
                 <DashBoard />
                 <ReferralCode />
             </div>
