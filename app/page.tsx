@@ -12,7 +12,7 @@ export default function Home() {
             </div>
             <Howitworks />
             <div className='pt-[60px]'>
-                <Link href='/' className='font-medium'>
+                <Link href='/referred' className='font-medium'>
                     Friends Who Enrolled
                 </Link>
             </div>
