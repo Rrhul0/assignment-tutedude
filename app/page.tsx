@@ -1,11 +1,13 @@
 import DashBoard from '@/components/dashboard'
 import Howitworks from '@/components/howitworks'
+import NavBar from '@/components/navbar'
 import ReferralCode from '@/components/referralCode'
 import Link from 'next/link'
 
 export default function Home() {
     return (
         <>
+            <NavBar paths={['Refer & Earn']} />
             <div className='flex flex-col gap-8 md:items-center lg:flex-row lg:items-start lg:justify-between lg:gap-0'>
                 <DashBoard />
                 <ReferralCode />
